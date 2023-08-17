@@ -1,0 +1,111 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h2 {
+	
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	/*text-align: center;*/
+}
+
+p, h4 {
+	font-family: 'Preahvihear', sans-serif;
+}
+
+/*image style*/
+#profile-picture{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 5px solid lightblue;
+
+}
+
+#landing {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0077B6;
+
+}
+/*Navbar Style Start*/
+
+nav {
+	background-color: #03045e;
+}
+
+/*Navbar Style End*/
+
+/*Projects Style Start*/
+
+
+.backprojects {
+	background-color: #00B4D8;
+	/*background-color: red;*/
+}
+
+.card {
+	background-color: #90E0EF;
+	/*background-color: red;*/
+}
+
+#title {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#projects .btn {
+	background-color: #0096C7;
+	text-decoration-color: white;
+}
+
+/*Projects Style End*/
+
+.tools .tools-item .tools-img {
+	width: 120px;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	margin: 0 auto;
+  }
+
+#tools {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #023E8A;
+	
+	
+}
+
+
+/*Tools Style End*/
+
+#contacts {
+	background-image: linear-gradient(royalblue,lightblue);
+	
+}
+
+.backcontacts {
+	background-color: darkblue;
+
+}
+
+.fa-brands {
+	color: black;
+}
+
+
+
+
+
+
+
